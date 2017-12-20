@@ -55,10 +55,10 @@ Thank `You` . Please `Call` Me `Coder`
  
  
  | Item     | Value | Qty   |
-| :------- | ----: | :---: |
-| Computer | $1600 |  5    |
-| Phone    | $12   |  12   |
-| Pipe     | $1    |  234  |
+| :-------  | ----: | :---: |
+| yonyougov | $1600 |  10   |
+| ufgov     | $1800 |  12   |
+| yonyou    | $2000 |  23   |
 
 
 >数据结构  
@@ -88,7 +88,7 @@ Mac下离线编辑器Mou
 OneCoder这里使用的是后者为自己的shurnim-storage项目写Readme。至于这个项目是什么，见Readme文档，OneCoder也会在另外的博文做一些补充说明。成品Readme如下：
 
 [html] view plain copy
-# shurnim-storage  
+# Albatronhenry  
   
 ![yonyougov icon](http://www.yonyougov.com/statics/images/logo.png)  
 
@@ -108,21 +108,32 @@ OneCoder这里使用的是后者为自己的shurnim-storage项目写Readme。至
 <a name="背景介绍"></a>  
 ## 背景介绍  
   
-*Shurnim*<br/>  
-*shurnim-storage*，是一个插件式云存储/网盘同步管理工具。是在参加又拍云开发大赛的过程中设计并开发。  
+*Ahenry*<br/>  
+*A++*，代表Advance+Application，表示领先、应用的意思。  
   
-<a name="项目介绍"></a>  
+<a name="携手发力管理信息化 联袂深耕大数据分析 中国科学院与用友政务共同创立“管理大数据研究院”"></a>  
 ## 项目介绍  
   
-*shurnim-storage* 的设计初衷是给大家提供一个可方便扩展的云存储/网盘同步工具。分后端接口和前端UI界面两部分。<br>  
-  
-由于目前各种云存储和网盘系统层出不穷，单一工具往往支持支持某几个特定存储之间的同步，如**又拍云**到**七牛云存储**的同步工具，此时如若想同步到其他存则可能需要新的工具，给用户带来不便。*shurnim-storage*  正是为了解决此问题而设计的。  
-  
-在*shurnim-storage*中，用户使用的固定的统一的后端接口。而所有云存储/网盘API的支持则是以插件的形式部署到系统中的。如此，如果用户想要一个从**又拍云**到**Dropbox**的同步工具，则只需要在原有基础上，增加**Dropbox**的插件，即可实现互通，方便快捷。<br/>  
-  
-同时，后端统一接口的设计也考虑到界面开发的需求，可直接通过后端提供的接口开发具有上述扩展功能的云存储UI工具。<br>  
-  
-目前，后端整体框架的核心部分已经基本开发完成。只需逐步补充后端接口和插件开发接口的定义即可。但由于个人时间和能力所限，UI部分没有开发，有兴趣的同学可以一试。  
+随着大数据、“互联网+政务服务”上升为国家战略，信息技术正在渗透到政府及公共事业管理的各个方面，给政府及公共事业管理带来一场新的革命。
+
+8月29日，中国科学院计算机网络信息中心与用友集团旗下的北京用友政务软件有限公司宣布共同创立“管理大数据研究院”，推进在管理信息化和大数据分析领域的前沿技术研发和战略合作。
+
+借此契机，双方将充分发挥各自优势，以基于财税、财务和资产管理等方面的大数据分析挖掘为核心，以攻关复杂科研项目管理模式为导向，联合开展用户行为分析、深度学习、管理态势等关键技术攻关，促使双方在管理信息化和管理大数据治理等领域拥有国内领先、国际一流的技术优势，推进科技成果转移转化。
+
+
+“这是一项具有引领创新作用的战略性举措，对建设‘智慧中科院’和打造‘用友云’都有十分重要的现实意义。”中国科学院网信办副主任陈明奇首先在签约仪式上对战略合作提出几点希望：一是进一步明确定位和方向。做到一个引领、两个接轨、三个能力。一个引领即：在管理信息化领域形成国内领先的技术优势，领跑业界发展。两个接轨即：与国家治理体系现代化接轨和与新一代信息技术发展趋势接轨。三个能力即：管理业务与信息技术的融合能力、系统平台与数据应用的集成能力、成果转化与培养市场的拓展能力。二是进一步聚焦产品实践。三是贡献管理信息化的“中科院方案”。
+
+用友领航企业软件与信息化服务30年，致力于成为全球领先的企业服务提供商，已经走过了1.0用友财务软件时期，2.0用友ERP时期，现在已经进入到用友3.0发展时期，形成了以用友云为核心的企业服务，致力于推动企业和公共组织互联网化、金融化创新发展，服务IT产业转型升级。用友云定位社会化商业应用基础设施及企业服务产业的共享平台，用友云通过各项云服务帮助企业客户 “敏经营、轻管理、易金融、简IT”，赋能中国企业，最终实现增长收入、降低成本、提高效率和控制风险。
+
+
+用友政务公司总裁范斌成在致辞时表示，“管理大数据研究院”的建立将以管理变革和数据驱动为路径，以“共赢”的模式最终实现双方的跨越式发展。双方的合作将为用友云的落地提供助力，是用友在管理信息化和大数据分析领域的一次突破，尤其是在政府、政务大数据业务领域。“对于用友政务公司来说，和中国科学院推进在管理信息化和大数据分析领域的前沿技术研发和战略合作，是一个全新的起点，也将是一次质的飞跃。通过共同培养研究生，以及广泛的技术交流和项目研究，促进双方研发人员的沟通与互动，有利于培养用户行为分析、深度学习、管理态势、云计算和大数据等领域的高精尖人才；通过与中国科学院共同申请专利、国家奖项、国家（地方）工程/技术实验室，有利于提升市场竞争力；借助中国科学院在国内和国际学术交往中的优势，开展国内和国际合作，参与管理信息化、电子政务等领域的标准制定，有利于提升在国内外的科技地位和影响力。”
+
+据了解，为了确保用友云在政府行业落地并保持领先，用友政务公司将 “大数据”和“政务云”列入重要战略规划，在综合治税、精准扶贫、社会保障资金使用效益、地方政府债务分析与预警、反不正当支付、财政供养、企业扶持等层面做着积极的努力和实践，而且已经有了很多成熟的产品和案例。
+
+
+
+
+此次战略合作体现了双方领导运用创新驱动发展的战略思维，是国立科研机构与大型创新企业合作的一次有益尝试。中国科学院计算机网络信息中心管理信息化部主任焦文彬介绍道，中国科学院的管理信息化平台，也就是ARP系统已经运行了十余年。当前，以“大、智、物、移、云”为特征的新一代信息技术的应用已经全面展开，大数据环境正在快速形成。中国科学院的ARP发展与企业ERP发展面临着同样的困局。如何运用大数据优势实现管理工作的智慧化和决策依据的科学化，运用新一代信息技术实现管理软件的升级换代，是我们都需要面对的严峻挑战。当然，其中也蕴藏着巨大的机遇。“中国科学院计算机网络信息中心正在按照院里‘十三五信息化规划’的要求，着力打造新一代ARP。当前面临的机遇与挑战为双方合作提供了坚实的基础。”
   
 <a name="使用说明"></a>  
 ## 使用说明  
@@ -130,11 +141,10 @@ OneCoder这里使用的是后者为自己的shurnim-storage项目写Readme。至
 <a name="获取代码"></a>  
 ### 获取代码  
   
-* gitcafe项目主页: <https://gitcafe.com/onecoder/shurnim-storage-for-UPYUN>  
-* OSChina项目主页: <http://git.oschina.net/onecoder/shurnim-storage><br>  
-OSChina上的会持续更新。  
+* 主页: <https://github.com/Albatronhenry/>  
+* 主页: <https://github.com/Albatronhenry/><br>  
   
-另外你也可以通过OSChina的Maven库获取依赖，或者自己编译jar包。  
+OSChina的Maven库获取依赖，或者自己编译jar包。  
   
 * maven  
   
@@ -184,18 +194,11 @@ import com.coderli.shurnim.storage.plugin.model.Resource;
   
 /**  
 * 各种云存储插件需要实现的通用接口  
-*  
-* @author OneCoder  
-* @date 2014年4月22日 下午9:43:41  
-* @website http://www.coderli.com  
 */  
 public interface PluginAPI {  
   
      /**  
       * 初始化接口  
-      *  
-      * @author OneCoder  
-      * @date 2014年5月19日 下午10:47:40  
       */  
      void init();  
   
@@ -203,9 +206,6 @@ public interface PluginAPI {
       * 获取子资源列表  
       *  
       * @param parentPath  
-      * @return  
-      * @author OneCoder  
-      * @date 2014年4月24日 下午11:29:14  
       */  
      List<Resource> getChildResources(String parentPath);  
   
@@ -219,8 +219,6 @@ public interface PluginAPI {
       * @param storePath  
       *            下载资源保存路径  
       * @return  
-      * @author OneCoder  
-      * @date 2014年4月24日 下午11:30:19  
       */  
      Resource downloadResource(String parentPath, String name, String storePath);  
   
@@ -232,8 +230,6 @@ public interface PluginAPI {
       * @param auto  
       *            是否自动创建父目录  
       * @return  
-      * @author OneCoder  
-      * @date 2014年5月15日 下午10:10:04  
       */  
      boolean mkdir(String path, boolean auto);  
   
@@ -247,8 +243,6 @@ public interface PluginAPI {
       * @param uploadFile  
       *            待上传的本地文件  
       * @return  
-      * @author OneCoder  
-      * @date 2014年5月15日 下午10:40:13  
       */  
      boolean uploadResource(String parentPath, String name, File uploadFile);  
 }  
@@ -361,9 +355,6 @@ public class UpYunPlugin extends AbstractPluginAPI {
   
      /*  
       * (non-Javadoc)  
-      *  
-      * @see com.coderli.shurnim.storage.plugin.PluginAPI#mkdir(java.lang.String,  
-      * boolean)  
       */  
      @Override  
      public boolean mkdir(String path, boolean auto) {  
@@ -404,8 +395,8 @@ public class UpYunPlugin extends AbstractPluginAPI {
 ```  
 <?xml version="1.0" encoding="UTF-8"?>  
 <plugin>  
-     <id>qiniu</id>  
-     <name>七牛云存储</name>  
+     <id>henry</id>  
+     <name>Alabatron</name>
      <api>  
           <className>com.coderli.shurnim.storage.qiniu.QiniuPlugin</className>  
           <params>  
@@ -458,9 +449,6 @@ import com.coderli.shurnim.storage.plugin.model.Resource;
 *  
 * 参数列表的设计，方便UI开发人员动态的根据参数列表生成可填写的控件。并给参数赋值。增强了可扩展性。  
 *  
-* @author OneCoder  
-* @date 2014年4月22日 下午9:21:58  
-* @website http://www.coderli.com  
 */  
 public interface ShurnimStorage {  
   
@@ -482,8 +470,6 @@ public interface ShurnimStorage {
       *            插件ID  
       * @param paramsKV  
       *            参数键值对  
-      * @author OneCoder  
-      * @date 2014年5月9日 上午12:41:53  
       */  
      void setParamValues(String pluginId, Map<String, String> paramsKV);  
   
@@ -543,9 +529,6 @@ import com.coderli.shurnim.storage.plugin.model.Resource.Type;
 * 全局接口测试类<br>  
 * 时间有限，目前仅作整体接口测试。细粒度的单元测试，随开发补充。  
 *  
-* @author OneCoder  
-* @date 2014年5月19日 下午10:50:27  
-* @website http://www.coderli.com  
 */  
 public class ShurnimStorageTest {  
   
@@ -575,14 +558,10 @@ public class ShurnimStorageTest {
 <a name="其他"></a>  
 ## 其他  
   
-时间仓促，功能简陋，望您包涵。(Blog:[https://github.com/Albatronhenry/](https://github.com/Albatronhenry/))特别希望看到该项目对您哪怕一点点的帮助。任意的意见和建议，欢迎随意与我沟通,联系方式：  
-  
 * Email: <mr.lin1994@foxmail.com>  
-* QQ:  
-* Blog:[OneCoder](http://www.coderli.com)  
+* Blog:[Albatron](https://github.com/Albatronhenry/)  
   
-项目的Bug和改进点，可在OSChina上以issue的方式直接提交给我。  
-效果预览：
 
-原文：http://blog.csdn.net/fenglailea/article/details/45562855
-原文：http://www.coderli.com/write-readme-for-your-project/
+
+(Reference website1)[http://blog.csdn.net/fenglailea/article/details/45562855]
+(Reference website2)[http://www.coderli.com/write-readme-for-your-project/]
