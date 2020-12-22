@@ -1,8 +1,10 @@
 github，oschina git gitcafe的代码托管平台上的项目的Readme.MD文件都是有其特有的语法的,基本规则如下：
 
 问题：raw.githubusercontent.com github的raw文件访问不了
+
 简单的说就是域名被DNS污染了
-在hosts文件加上：199.232.4.133 raw.githubusercontent.com
+
+在C:\Windows\System32\drivers\etc下的hosts文件加上：199.232.4.133 raw.githubusercontent.com
 
 [html] view plain copy
 Markdown 语法速查表  
